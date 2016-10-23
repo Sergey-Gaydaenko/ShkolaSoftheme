@@ -1,0 +1,17 @@
+﻿<Window x:Class="magic_numbers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:magic_numbers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="label" Content="Enter your number: " HorizontalAlignment="Left" Margin="26,40,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Times New Roman"/>
+        <TextBox x:Name="tbNumber" HorizontalAlignment="Left" Height="23" Margin="217,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnMagic" Content="Magic" HorizontalAlignment="Left" Margin="217,89,0,0" VerticalAlignment="Top" Width="120" Height="36" Click="btnMagic_Click"/>
+        <Label x:Name="label_Copy" Content="Magic number: " HorizontalAlignment="Left" Margin="26,152,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Times New Roman"/>
+        <TextBox x:Name="tbMagicNumber" HorizontalAlignment="Left" Height="23" Margin="217,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="*****" />
+
+    </Grid>
+</Window>
