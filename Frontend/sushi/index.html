@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Site</title>
+        <link rel="icon" href="favicon.ico?dt" type="image/x-icon" />
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+
+        <meta charset="UTF-8" />
+        <meta name="description" content="this is about sushi" />
+        <meta name="keywords" content="Http, Html, Tags, IE" /> <!-- при поиске сайтов-->
+        <meta name="author" content="Sergey Gaydaenko" />
+        <!--<meta http-equiv="refresh" content="5" />-->
+        <!--<script src="sctipt.js" type="text/javascript" /> -->
+        <style>
+            .products{
+                width: 100%;
+            }
+            .product{
+                background: #FFFFFF;
+                list-style: none;
+                margin: 40px;
+                padding: 10px;
+            }    
+
+            .image{
+                width: ;
+                height: 200px;
+            }
+        </style>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    
+    <body style="background: #FDF5E6">
+        <header>
+            <nav class="navbar navbar-default ">
+                <div class="container-fluid" >
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav" align="center">
+                        <li><a href="#">Меню</a></li>
+                        <li><a href="#">Заказ</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right"> 
+                    </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+        
+        <h1 align="center">МЕНЮ</h1>
+        <h4 align="center">Суши, роллы,нигири и сеты готовятся профессионалами
+            и только из свежих продуктов. Только у нас вы найдете<br />такое сочетание
+            мастерства приготовления, скорости доставки и умеренности оплаты.
+        </h4>
+        <div align="right">
+            <input type="radio" name="category" checked/>Все
+            <input type="radio" name="category" checked/>Популярное
+            <input type="radio" name="category" checked/>Акции
+            <input type="radio" name="category" checked/>Новинки
+        </div>
+        <h2>Роллы</h2>
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-xs-11 product">
+                    <h4 align="center">Калифорнийский Унаги</h4>
+                    <img class="image" src="1.jpeg" /><br/>
+                    <div class="clearfix">
+                        <div class="pull-left"><h4>63 uah</h4></div>
+                        <div class="pull-right"><button class="btn btn-default btn-lg">order</button></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-11 product">
+                    <h4 align="center">Калифорнийский Унаги</h4>
+                    <img class="image" src="2.jpeg" /><br/>
+                    <div class="clearfix">
+                        <div class="pull-left"><h4>63 uah</h4></div>
+                        <div class="pull-right"><button class="btn btn-default btn-lg">order</button></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-11 product">
+                    <h4 align="center">Калифорнийский Унаги</h4>
+                    <img class="image" src="3.jpeg" /><br/>
+                    <div class="clearfix">
+                        <div class="pull-left"><h4>63 uah</h4></div>
+                        <div class="pull-right"><button class="btn btn-default btn-lg">order</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-11 col-md-3 product">
+                    <h4 align="center">Калифорнийский Унаги</h4>
+                    <img  src="1.jpeg" /><br/>
+                    <div class="clearfix">
+                        <div class="pull-left"><h4>63 uah</h4></div>
+                        <div class="pull-right"><button class="btn btn-default btn-lg">order</button></div>
+                    </div>
+                </div>
+                <div class="col-xs-11 col-md-3 product">
+                    <h4 align="center">Калифорнийский Унаги</h4>
+                    <img  src="1.jpeg" /><br/>
+                    <div class="clearfix">
+                        <div class="pull-left"><h4>63 uah</h4></div>
+                        <div class="pull-right"><button class="btn btn-default btn-lg">order</button></div>
+                    </div>
+                </div>
+                <div class="col-xs-11 col-md-3 product">
+                    <h4 align="center">Калифорнийский Унаги</h4>
+                    <img  src="1.jpeg" /><br/>
+                    <div class="clearfix">
+                        <div class="pull-left"><h4>63 uah</h4></div>
+                        <div class="pull-right"><button class="btn btn-default btn-lg">order</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <footer style="background: #848484">
+            <hr color = "#00C5CD" size = "5px"></hr>
+
+            <div class="container-fluid">
+                <div class = "row">
+                    <div class = "col-xs-12 col-md-4 col-sm-12">
+                        <img src = "img/contact-fb.png"/>
+                        <img src = "img/contact-ggp.png"/>
+                        <img src = "img/contact-inst.png"/>
+                        <img src = "img/contact-tw.png"/>
+                        <img src = "img/contact-ytb.png"/>
+                    </div>
+
+                    <div class = "col-xs-12 col-md-4 col-sm-12">
+                        <div class = "textInContacts" >2015 Softheme. Все права защищены.</div>
+                    </div>
+
+                    <div class = "col-xs-12 col-md-4 col-sm-12">
+                        <div style="float:left">
+                            <div>Доставка</div>
+                            <div>24/7</div>
+                        </div>
+                        
+                        <div style="float:right">
+                            <div>(044) 551-20-98</div>
+                            <div>(044) 345-92-00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
